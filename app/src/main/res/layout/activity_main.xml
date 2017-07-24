@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizappcars.MainActivity"
+
+    >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/musclecar"
+    android:scaleType="centerCrop"
+    android:padding="20dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Big Car Quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/title"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Unknown Driver"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:ems="10"
+            android:id="@+id/nameBar"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Welcome! get ready for some car facts!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/welcomeTitle"
+            android:layout_below="@+id/nameBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+        android:text="1. What's the name of the 1. car ever?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/question1" />
+
+    <RadioButton
+        android:text="T-model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/answer1Button" />
+
+    <RadioButton
+        android:text="Benz Patent-Motorwagen"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer1Button2" />
+
+    <RadioButton
+        android:text="PanzerKampfWagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:id="@+id/answer1Button3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:text="2. what year was it released?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/question2" />
+
+        <RadioButton
+            android:text="1848"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer2Button" />
+
+        <RadioButton
+            android:text="1956"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer2Button2" />
+
+        <RadioButton
+            android:text="1886"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer2Button3" />
+
+
+        <TextView
+            android:text="3. How much miles(km) was the highest mileage in a car?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/question3" />
+
+        <RadioButton
+            android:text="4 586 630 km"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer3Button" />
+
+        <RadioButton
+            android:text="56 miles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer3Button2" />
+
+        <RadioButton
+            android:text="1 607 265 km"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer3Button3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:text="4. Which cars produced before 1980?"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question4" />
+
+        <CheckBox
+            android:text="MERCEDES-BENZ 300SL GULLWING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer1Box" />
+
+        <CheckBox
+            android:text="Nissan Skyline GT-R R34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer1Box2" />
+
+        <CheckBox
+            android:text="MERCEDES BENZ E-Klasse T-Modell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer1Box3" />
+
+        <CheckBox
+            android:text="Ford Mustang Mach1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/answer1Box4" />
+
+
+            <TextView
+                android:text="5. What car brands do FIAT own?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/question5" />
+
+            <CheckBox
+                android:text="Chrysler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/answer2Box" />
+
+            <CheckBox
+                android:text="Volkswagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/answer2Box2" />
+
+            <CheckBox
+                android:text="Opel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/answer2Box3" />
+
+            <CheckBox
+                android:text="Mercedes-Benz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/answer2Box4" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. When was the first Toyota Corolla made?"
+        android:textColor="#ffffff"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:id="@+id/answerText"
+        />
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Show the reult!"
+            android:textColor="#000"
+            android:id="@+id/result"
+            android:onClick="submitAnswer"
+            android:textSize="12dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>
