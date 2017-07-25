@@ -76,6 +76,9 @@
         android:textColor="#ffffff"
         android:id="@+id/question1" />
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
     <RadioButton
         android:text="T-model"
         android:layout_width="match_parent"
@@ -96,6 +99,7 @@
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
         android:id="@+id/answer1Button3" />
+        </RadioGroup>
     </LinearLayout>
 
     <LinearLayout
@@ -111,6 +115,9 @@
             android:textColor="#ffffff"
             android:id="@+id/question2" />
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <RadioButton
             android:text="1848"
             android:layout_width="match_parent"
@@ -132,6 +139,7 @@
             android:textColor="#ffffff"
             android:id="@+id/answer2Button3" />
 
+        </RadioGroup>
 
         <TextView
             android:text="3. How much miles(km) was the highest mileage in a car?"
@@ -139,6 +147,10 @@
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
             android:id="@+id/question3" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         <RadioButton
             android:text="4 586 630 km"
@@ -160,6 +172,9 @@
             android:layout_height="wrap_content"
             android:textColor="#ffffff"
             android:id="@+id/answer3Button3" />
+
+    </RadioGroup>
+
     </LinearLayout>
 
     <LinearLayout
